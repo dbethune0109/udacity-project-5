@@ -1,10 +1,10 @@
-html, body{ 
+html, body{
 	height: 100%; margin: 0; padding: 0;}
  #map-canvas {
  	height: 100%; width : 80%; margin: 10; padding: 10;
- }	
+ }
 #list-view {
-	position: absolute;
+	position: static;
 	top: 140px;
 	left: 100px;
 	background-color: white;
@@ -26,11 +26,11 @@ html, body{
 	display : none;
 }
 
-.list-item:hover { 
+.list-item:hover {
 	background-color:  yellow;
 }
 
-#list-view-open { 
+#list-view-open {
 	display : none;
 	background-color: red;
 	padding :5;
@@ -43,7 +43,7 @@ html, body{
 
 	}
 
-	#list-view-open { 
+	#list-view-open {
 		display : block;
 	}
 
@@ -63,4 +63,3 @@ html, body{
 		display: block !important;
 	}
 }
-
