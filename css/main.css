@@ -1,0 +1,66 @@
+html, body{ 
+	height: 100%; margin: 0; padding: 0;}
+ #map-canvas {
+ 	height: 100%; width : 80%; margin: 10; padding: 10;
+ }	
+#list-view {
+	position: absolute;
+	top: 140px;
+	left: 100px;
+	background-color: white;
+	padding :5;
+}
+#four-square-view{
+	/*
+	position: absolute;
+	top: 100px;
+	left: 400px;
+	*/
+	background-color: white;
+	padding :5;
+	display : none;
+}
+
+.hidden {
+	/*background-color:  grey;*/
+	display : none;
+}
+
+.list-item:hover { 
+	background-color:  yellow;
+}
+
+#list-view-open { 
+	display : none;
+	background-color: red;
+	padding :5;
+
+}
+
+@media only screen and (max-width : 480px) {
+	#list-view {
+		display: none;
+
+	}
+
+	#list-view-open { 
+		display : block;
+	}
+
+	#four-square-view{
+		/*
+		top: 20px;
+		left: 20px;
+		*/
+		background-color: red;
+	}
+	h1 { display : none ;}
+	body { background-color:  blue }
+}
+
+@media only screen and (min-width : 481px) {
+	#list-view {
+		display: block !important;
+	}
+}
+
