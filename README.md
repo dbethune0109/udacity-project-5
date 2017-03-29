@@ -1,6 +1,7 @@
 Neighborhood Map Application
 
 This application is the 5 th project for Udacity using Knockout, Jquery, HTML, CSS, googlemaps.api, foursquare.api.
+It uses Google Maps with markers to locate some of my favorite places and uses foursquare to give ratings.
 
 
 Motivation
